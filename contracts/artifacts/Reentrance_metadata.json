@@ -1,0 +1,122 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_who",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "donate",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Reentrance.sol": "Reentrance"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/utils/math/SafeMath.sol": {
+			"keccak256": "0x6aa2ea34a27fad70d0da7da7937c306ec5011b56a7a67c826ccebc9b2442ca68",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a71bd659659130922e914d04d60922ce9f577ee74d3129709265798206589eb",
+				"dweb:/ipfs/QmX2QWCWRnc8AQhCZtT31zBZ33NiSAyZC57f7VjdAohEPE"
+			]
+		},
+		"contracts/Reentrance.sol": {
+			"keccak256": "0x891fc730f2f160860bb5e464166e9e71577e27d6652956f936da14cbf5b3cc5b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6d66457494cbfc52925e39f0ee1ac4e5110558244711a615d50a5d8500174385",
+				"dweb:/ipfs/Qmddny8GkSPT2zQWW8LAPrEfjegyVaEUQ1TN9MiEZfYHkq"
+			]
+		}
+	},
+	"version": 1
+}

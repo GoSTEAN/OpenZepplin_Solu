@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract BlockHeadersCTF",
+						"name": "_blockHeadersCTF",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "blockHeadersCTF",
+				"outputs": [
+					{
+						"internalType": "contract BlockHeadersCTF",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "feeBps",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pwn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BlockHeadersCTF.sol": "Hack"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BlockHeadersCTF.sol": {
+			"keccak256": "0x0ed9bc7bc6a4bcd05c9ff008a9e1f95e8a05b0ff6380f1f03c4587602accefe1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a68e30ff351273d2f3365eb4f54408065822aeca829466aa3517585f560b44b9",
+				"dweb:/ipfs/QmTekLZxiwytuy1Au4YSszFweb9BpHh3asjQFHyJNtYwvK"
+			]
+		}
+	},
+	"version": 1
+}

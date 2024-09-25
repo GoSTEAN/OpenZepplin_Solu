@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_victimContract",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "flipAttack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "victimContract",
+				"outputs": [
+					{
+						"internalType": "contract CoinFlip",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CoinFlipAttack.sol": "CoinFlipAttack"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CoinFlip.sol": {
+			"keccak256": "0xde2267fe6019add64a388ed10e52a67078d341d4eb1d5be53eb539348d383940",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1875ab2048c56bdc04b4bb14a8a7d8a8c95e51a1094b14db0122ba27d43d79f7",
+				"dweb:/ipfs/Qmeoh9v1P16swMmbaaHgvW5LwthEv23tJdxxHZLV8bxtyd"
+			]
+		},
+		"contracts/CoinFlipAttack.sol": {
+			"keccak256": "0xf76259b09fe5111426914ab6f739850c2a0ac89a3adb4d1f9dff82c3859968e4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://88430f57232b988ff8be2d9630559fff68a153eb302827298926faadf52b9ba8",
+				"dweb:/ipfs/QmaFce48CQABm7e2N4yZMppMym8yq5fYGM55kBaz4XmDGw"
+			]
+		}
+	},
+	"version": 1
+}

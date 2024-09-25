@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Dex2.sol": "IDe"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Dex2.sol": {
+			"keccak256": "0x425d51cc0abdfe780dcbb8f1f1c246a741514ad2628ca601edecfed10658fa60",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://81c5958179c334e8b4cbbd2e5ed5fa6ea1a238b46c0404248126b9ad6060b6ad",
+				"dweb:/ipfs/QmQDQS81sqV7jKujnTTmzhhzLAyoyVRN4kQUy44mSzKibu"
+			]
+		}
+	},
+	"version": 1
+}
